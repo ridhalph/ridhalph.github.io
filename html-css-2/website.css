@@ -1,0 +1,140 @@
+@charset "utf 8";
+
+body,h1,h2,h3,h4,h5,h6,p,div,ul li{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana,Geneva,Sans-serif;
+	background-color: #af4c4c;
+}
+
+#divwrapper {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#divheader {
+	width: 700px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQha2j6OsymoxSh6r_MkWjiXe_C08Lik9FlfUn2Y9xshQn2oT3lTQ);
+	text-align: center;
+}
+
+#divheader img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#divline {
+	width: 700px;
+	background: #999;
+	height: 1px;
+}
+
+#divlinks {
+	width: 700px;
+	background: #666;
+}
+
+#divnav {
+	width: 384px;
+	background: #666;
+	height: 36px;
+	margin: 0 auto;
+}
+
+#divnav ul {
+	list-style-type: none;
+}
+
+#divnav ul li {
+	float: left;
+}
+
+#divnav ul li a {
+	display: block;
+	height: 20px;
+    line-height: 20px;
+	background: #000;
+	width: 80px;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin: 7px;
+
+	/*border-radius*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+
+    /*Gradients*/
+    background: -webkit-linear-gradient(#666,#333);
+    background: -o-linear-gradient(#666,#333);
+}
+
+#divnav ul li a:hover {
+	background: #333;
+    background: -webkit-linear-gradient(#000,#666);
+    background: -o-linear-gradient(#000,#666);
+}
+
+#divnav ul li a.current, #divnav ul li a.current:hover {
+	background: #333;
+	background: -webkit-linear-gradient(#000,#666);
+    background: -o-linear-gradient(#000,#666);
+    color: #ff0066;
+    cursor: default;
+}
+#divabout {
+	width: 700px;
+	background: #333;
+	padding-top: #60px;
+	padding-bottom: :#60px;
+}
+
+#divcontent {
+	width: 430px;
+	margin: 0 auto;
+	background: #222;
+	border: 1px solid #000;
+	/*gradient*/
+	background: -webkit-linear-gradient(#666,#333,#222);
+    background: -o-linear-gradient (#666,#333,#222);
+}
+
+#divcontent img {
+	float:left;
+	border: 1px solid #000;
+	background: #333;
+	padding: 16px;
+	margin:0.7em; 
+
+    /*Gradients*/
+    background: -webkit-linear-gradient(#000,#333);
+    background: -o-linear-gradient (#000,#333);
+
+    /*Border-Radius*/
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -o-border-radius:15px;
+}
+
+#divcontent h5 {
+	color: #fff;
+	padding-top: 0.8em;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#divcontent h5 {
+	font-size: 0.7em;
+	color: #999;
+	padding: 0.7em,
+	line-height:1.4em;
+}
+
